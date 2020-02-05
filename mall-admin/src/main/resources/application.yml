@@ -17,8 +17,8 @@ spring:
   rabbitmq: #rabbitmq相关配置
     host: 192.168.1.122
     port: 5672
-    username: root
-    password: root
+    username: guest
+    password: guest
   servlet:
     multipart:
       enabled: true #开启文件上传
@@ -70,7 +70,7 @@ aliyun:
     dir:
       prefix: mall/images/ # 上传文件夹路径前缀
 minio:
-  endpoint: http://192.168.1.122:9090 #MinIO服务所在地址
+  endpoint: http://192.168.6.132:9090 #MinIO服务所在地址
   bucketName: mall #存储桶名称
   accessKey: minioadmin #访问的key
   secretKey: minioadmin #访问的秘钥
