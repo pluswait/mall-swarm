@@ -16,7 +16,7 @@ spring:
         login-password: druid
   data:
     mongodb:
-      host: localhost
+      host: 192.168.1.122
       port: 27017
       database: mall-port
   redis:
@@ -32,7 +32,7 @@ spring:
         min-idle: 0 # 连接池中的最小空闲连接
     timeout: 3000ms # 连接超时时间（毫秒）
   rabbitmq:
-    host: localhost
+    host: 192.168.1.122
     port: 5672
     virtual-host: /mall
     username: mall
