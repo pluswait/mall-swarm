@@ -17,8 +17,8 @@ spring:
   rabbitmq: #rabbitmq相关配置
     host: 192.168.1.122
     port: 5672
-    username: guest
-    password: guest
+    username: mall
+    password: mall
   servlet:
     multipart:
       enabled: true #开启文件上传
