@@ -12,7 +12,7 @@ spring:
           search-locations: classpath:/config/{application}
         git: #Git仓库存储
           uri: https://github.com/pluswait/mall-swarm.git
-          username: pluswait
+          username: zyl17610283252@outlook.com
           password: GIThub1024.
           clone-on-start: true
           search-paths: '{application}'
