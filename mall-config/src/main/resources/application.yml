@@ -11,7 +11,7 @@ spring:
         native: #本地仓库存储
           search-locations: classpath:/config/{application}
         git: #Git仓库存储
-          uri: https://github.com/pluswait/mall-swarm.git
+          uri: https://github.com/pluswait/mall-swarm
           username: zyl17610283252@outlook.com
           password: GIThub1024.
           clone-on-start: true
