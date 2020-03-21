@@ -16,3 +16,4 @@ spring:
           password: GIThub1024.
           clone-on-start: true
           search-paths: '{application}'
+          skip-ssl-validation: true
